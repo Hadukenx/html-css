@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(138, 159, 160);
+            margin: 0px;
+        }
+
+        header{
+            background-color: aquamarine;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        h1{
+            text-align: center;
+        }
+
+        nav{
+            background-color: rgb(76, 160, 132);
+            padding: 3px;
+            box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.726) 
+        }
+
+        nav > a{
+            text-decoration: none;
+            padding-right: 50px;
+            font-weight: bold;
+            
+        }
+
+        nav > a:hover{
+            background-color: rgb(47, 102, 84);
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 3px 2px 11px #000000;
+        }
+
+        #principal{
+            background-color: rgb(176, 252, 0);
+        }
+
+        .subt{
+            text-align: center;
+            padding: 3px;
+            
+        }
+
+        article{
+            background-color: lightgray;
+        }
+        article > aside{
+            background-color: rgb(107, 107, 107);
+        }
+
+        .texto{
+            margin: 5px;
+        }
+
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+        }
+
+        footer > p{
+            margin: 4px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: azure;
+            border-radius: 50%;
+            margin: 10px;
+        }
+
+    </style>
+
+</head>
+<body>
+<header>
+    <h1>Testando agrupamentos</h1>
+         <nav id="links">
+            <a href="link">link</a>
+            <a href="link">link</a>
+            <a href="link">link</a>
+            <a href="link">link</a>
+        </nav>
+</header>
+<main>
+    <section id="principal">
+        <p class="subt"> Tudo sobre agrupamentos! </p>
+    </section>
+
+    <section>
+        <article id="artigo">
+            <h2 class="titulo2">Notícias sobre jogos</h2>
+            <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quam, excepturi vero quisquam voluptatum incidunt consequatur explicabo. Exercitationem possimus mollitia expedita. Magni nesciunt sed quia totam animi odit! Et, aliquid?</p>
+            <aside>Comming com Brasil</aside>
+        </article>
+    </section>
+</main>
+
+<footer> 
+    <p>Eu sou péssimo fazendo css</p>
+</footer>
+
+<div id="bola"></div>
+  
+</body>
+</html>
