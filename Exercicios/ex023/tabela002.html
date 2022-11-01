@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-bre">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+   <style>
+
+    body{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    table{
+        width: 500px;
+        padding: 10px;
+        border-collapse: collapse;
+    }
+
+    th, td{
+        border: 2px solid black;
+        padding: 10px;
+        
+    }
+
+    thead, tfoot{
+        background-color: gray;
+        color: white;
+    }
+
+    .num{
+        background-color: #9b68ca;
+        text-align: right;
+    }
+
+   </style>
+
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Qualidades</th>
+                <th>Nivel de 1 a 10</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Concentração</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>Dedicação</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>Esperança</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>Tristeza</td>
+                <td class="num">10</td>
+            </tr>
+            <tr>
+                <td>Alegria</td>
+                <td class="num">0</td>
+            </tr>
+            <tr>
+                <td>Ansiedade</td>
+                <td class="num">10</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <td><strong>26</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+</body>
+</html>
